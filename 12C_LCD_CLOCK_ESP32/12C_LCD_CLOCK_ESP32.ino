@@ -11,7 +11,7 @@ const char* ntpServer2 = "time.nist.gov";
 const long  gmtOffset_sec = 10800;
 const int   daylightOffset_sec = 10800;
 
-const char* time_zone = "CET-1CEST,M3.5.0,M10.5.0/3";  // TimeZone rule for Europe/Rome including daylight adjustment rules (optional)
+const char* time_zone = "CET-1CEST,M3.5.0,M10.5.0/3";  
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 void printLocalTime()
 {
